@@ -587,30 +587,53 @@
 
 ## 学习路径图
 
+```mermaid
+flowchart TB
+    M00[Module 00 环境搭建] --> M01[Module 01 语言基础]
+    M01 --> M02[Module 02 面向对象编程]
+    M01 -.-> M03[Module 03 核心 API]
+
+    M02 --> M04[Module 04 异常处理]
+    M04 --> M05[Module 05 泛型与集合框架]
+    M05 --> M06[Module 06 I/O 与文件操作]
+
+    M05 -.-> M07[Module 07 注解与反射]
+    M07 -.-> M08[Module 08 Lambda / Stream]
+
+    M06 --> M10[Module 10 网络编程]
+    M08 -.-> M09[Module 09 多线程与并发]
+    M09 -.-> M10
+
+    M10 --> M11[Module 11 单元测试]
+    M11 --> M12[Module 12 构建工具]
+    M12 --> M13[Module 13 数据库编程]
+    M13 --> M14[Module 14 Spring Boot]
+    M14 --> M15[Module 15 工程实践]
+
+    style M00 fill:#e3f2fd,stroke:#1565c0
+    style M14 fill:#fff3e0,stroke:#e65100
+    style M15 fill:#e8f5e9,stroke:#2e7d32
 ```
-Module 00  环境搭建
-    │
-Module 01  Java 语言基础
-    │
-Module 02  面向对象编程  ───── Module 03 核心 API
-    │
-Module 04  异常处理
-    │
-Module 05  泛型与集合框架  ───── Module 07 注解与反射
-    │                                      │
-Module 06  I/O 与文件操作           Module 08 Lambda/Stream
-    │                                      │
-Module 10  网络编程  ───────────── Module 09 多线程与并发
-    │
-Module 11  单元测试
-    │
-Module 12  构建工具
-    │
-Module 13  数据库编程
-    │
-Module 14  Spring Boot
-    │
-Module 15  工程实践与进阶
+
+```mermaid
+timeline
+    title 学习时间规划
+    第 1 周 : Module 00 环境搭建
+             : Module 01 语言基础
+    第 2-3 周 : Module 02 面向对象
+               : Module 03 核心 API
+    第 4 周 : Module 04 异常处理
+            : Module 05 集合框架
+    第 5 周 : Module 06 I/O
+            : Module 07 注解与反射
+    第 6-7 周 : Module 08 Lambda/Stream
+               : Module 09 多线程与并发
+    第 8 周 : Module 10 网络编程
+            : Module 11 单元测试
+    第 9 周 : Module 12 构建工具
+            : Module 13 数据库编程
+    第 10-11 周 : Module 14 Spring Boot
+    持续 : Module 15 工程实践
 ```
 
 ---
