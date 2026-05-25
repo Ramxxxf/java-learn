@@ -140,9 +140,6 @@ flowchart LR
     A["HelloWorld.java<br/>源代码"] -->|"javac 编译"| B["HelloWorld.class<br/>字节码"]
     B -->|"java 启动 JVM"| C["控制台输出<br/>Hello, World!"]
 
-    style A fill:#e3f2fd,stroke:#1565c0
-    style B fill:#fff3e0,stroke:#e65100
-    style C fill:#e8f5e9,stroke:#2e7d32
 ```
 
 **三个关键理解**：
@@ -274,12 +271,6 @@ flowchart LR
     D --> E["install<br/>安装到本地仓库"]
     E --> F["deploy<br/>部署到远程仓库"]
 
-    style A fill:#fce4ec,stroke:#c62828
-    style B fill:#e3f2fd,stroke:#1565c0
-    style C fill:#fff3e0,stroke:#e65100
-    style D fill:#e8f5e9,stroke:#2e7d32
-    style E fill:#f3e5f5,stroke:#6a1b9a
-    style F fill:#e0f2f1,stroke:#00695c
 ```
 
 ### 5.4 Maven 常用命令

@@ -610,9 +610,6 @@ flowchart TB
     M13 --> M14[Module 14 Spring Boot]
     M14 --> M15[Module 15 工程实践]
 
-    style M00 fill:#e3f2fd,stroke:#1565c0
-    style M14 fill:#fff3e0,stroke:#e65100
-    style M15 fill:#e8f5e9,stroke:#2e7d32
 ```
 
 ```mermaid
